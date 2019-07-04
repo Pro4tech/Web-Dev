@@ -1,1 +1,3 @@
-This is My Web-Development Insternship Repo
+This is My Web-Development Internship Repo
+Scripting Used:
+HTML,CSS,JavaScript
