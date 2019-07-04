@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form action="Class.html" method="get">
+      <fieldset>
+        <!-- Legend tag allows for labelling the fieldset -->
+        <legend>Student Sign-Up Form:</legend>
+        First Name:
+        <input type="text" name="First Name">
+        <br>
+        <br>
+        Last Name:
+        <input type="text" name="Last Name">
+        <br>
+        <fieldset>
+          <legend>Gender</legend>
+          <input type="radio" name="Gender" value="Male">Male
+          <input type="radio" name="Gender" value="Female">Female
+          <input type="radio" name="Other" value="Other">Other
+        </fieldset>
+        <fieldset>
+          <legend>Education:</legend>
+          <!-- Drop-Down list-->
+          <select name="Education">
+            <option value="FE">FE</option>
+            <option value="SE">SE</option>
+            <option value="TE">TE</option>
+            <option value="BE">BE</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>Login Credientials</legend>
+          Email-id:<input type="email" name="Email-id">
+          Password:<input type="password" name="Password">
+        </fieldset>
+        <fieldset>
+          <legend>Optional Subject</legend>
+          <input type="checkbox" name="OS" value="OS">OS
+          <input type="checkbox" name="OF" value="OF">OF
+          <input type="checkbox" name="CP" value="CP">CP
+          <input type="checkbox" name="CE" value="CE">CE
+          <input type="checkbox" name="RT" value="RT">RT
+        </fieldset>
+        <br>
+        <button type="submit" name="Submit">Submit</button>
+      </fieldset>
+
+    </form>
+  </body>
+</html>

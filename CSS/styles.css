@@ -1,0 +1,74 @@
+    h1 {
+        font-family: 'Segoe UI';
+        color: red;
+        text-align: center;
+        padding: 15px 15px 10px 10px;
+        border-style: dashed;
+        border-color: blue;
+        background-color: green;
+    }
+
+    #other {
+        text-align: center;
+        color: royalblue;
+        widows: 100px;
+        background: darkgoldenrod;
+        font-family: serif;
+        border-style: groove;
+        border-color: crimson border-width: 5px;
+    }
+
+    .h1-a {
+        color: black;
+        background-color: white;
+        border-style: solid;
+        border-color: aqua;
+        font-style: italic;
+        font-family: 'Times New Roman'
+    }
+
+    .border {
+        border-style: groove;
+        border-color: blue;
+        background-color: green;
+        border-width: medium;
+    }
+
+    p {
+        color: gold;
+        text-align: center;
+        font-family: 'Times New Roman';
+        background-color: green;
+    }
+
+    .error {
+        color: red;
+        font-size: 15px;
+        font-family: sans-serif;
+        background-color: cadetblue;
+    }
+
+    /* id Defination */
+    #allignleft {
+        text-align: left;
+    }
+
+    #allignright {
+        text-align: right;
+    }
+
+    a:visited {
+        color: red;
+    }
+
+    a:hover {
+        color: green;
+    }
+
+    a:active {
+        color: blue;
+    }
+
+    a:link {
+        color: teal;
+    }
