@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Class details</title>
+    <h1>TE ETC</h1>
+  </head>
+  <body>
+    <h2>About</h2>
+    <p>
+      It Consists of the Student Of Electronic And Telecommunication Engineering At GEC who have reached Thier Third Year By Passing the Semester-IV Examination Conducted in May-June 2019 .The Batch Consists with Class Representaive as Rohan Kumar and Rajvi Lawande.
+    </p>
+    <br>
+    <figure>
+   
+ <img src="1.jpg" alt="Image of Proceesor" height="190" width="280">
+    <br>
+    <h2>Subjects Of Second Year Electronic and Telecommunication</h2>
+    <h3><b>Semester-III</b></h3>
+    <ol>
+      <li><a href="Semester-3.html">Applied Mathematics-III</a> </li>
+      <li><a href="Semester-3.html">Economics and Management</a> </li>
+      <li><a href="Semester-3.html">Algorithms andDatastructures</a></li>
+      <ul>
+        <li><i>Practicals-Passing</i> </li>
+      </ul>
+      <li><a href="Semester-3.html">Electronic Devices and Circuits-I</a> </li>
+      <ul>
+        <li><i>Practicals-Passing</i> </li>
+      </ul>
+      <li><a href="Semester-3.html">Digital System Design</a> </li>
+      <ul>
+        <li><em></em>Practicals-Passing</li>
+      </ul>
+      <li><a href="Semester-3.html">Electrical Circuits and Systems</a> </li>
+      <ul>
+        <li><i>Practicals-Passing</i> </li>
+      </ul>
+    </ol>
+    <h3>Semester-IV</h3>
+    <ol>
+      <li><a href="Semester-4.html">Probability & Random Processes</a> </li>
+      <li><a href="Semester-4.html">Signals and Systems</a> </li>
+      <ul>
+        <li><del><i>Practicals-Passing</i></del> -Due to New Syllabus </li>
+      </ul>
+      <li><a href="Semester-4.html">ElectroMagnetic Fields and Waves</a></li>
+      <ul>
+        <li><i>Practicals-No Examination Conducted</i> </li>
+      </ul>
+      <li><a href="Semester-4.html">Electronic Devices and Circuits-II</a> </li>
+      <ul>
+        <li><i>Practicals-Passing</i> </li>
+      </ul>
+      <li><a href="Semester-4.html">Linear Integrated Circuits</a> </li>
+      <ul>
+        <li><em></em>Practicals-Passing</li>
+      </ul>
+      <li><a href="Semester-4.html">Microprocessors and Interfacing</a> </li>
+      <ul>
+        <li><i>Practicals-Passing</i> </li>
+      </ul>
+    </ol>
+    <p>The Examination Process is a Month long Process with Examination held at a difference of 5-7 Days in between Them</p>
+  </body>
+</html>

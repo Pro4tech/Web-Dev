@@ -1,0 +1,4 @@
+Assignment:
+1)Require to crete a index,home,product,enquiry,gallery and about
+2)Atleast 5 products on display
+3)
