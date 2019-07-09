@@ -1,4 +1,24 @@
-Variable Testing
+// Arrow function defination
+var f1 = function () { return "hi"; };
+var f2 = function () { console.log("I'm f2"), console.log("2nd Comment"); };
+var f3 = function (name) { console.log('Nice to meet u ' + name), console.log('Bye ' + name); };
+var f4 = function (a, b) { return Number(a) + Number(b); };
+
+// Function Calling
+console.log(f1());
+f2();
+f3("Pritesh");
+console.log(f4(3, '5'));
+
+// Demo on use of let
+var a = 10;
+if (true) {
+    let a = 90;
+}
+a += 10;
+console.log(a);
+
+//Variable Testing
 var a;
 a = 10;
 a = 'hello';
@@ -50,7 +70,7 @@ function calc(a: number, b?: string) {
 console.log('With Parameter:' + calc(3, 'cube'));
 console.log('Without Parameter:' + calc(3));
 
-##--Implicit Typing--##
+//Implicit Typing--##
 var a: any; (var a = 10 - implicit example)
     a = 5;
 console.log(typeof (a));
