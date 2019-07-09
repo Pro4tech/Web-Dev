@@ -1,28 +1,24 @@
-class address {
-    state: string;
-    Country: string;
+export class address {
+    constructor(state:string,Country:string);
+    
 }
-class Student {
-    firstName:string;
-    lastName:string;
+export class Student {
+    constructor(private firstname:string,private lastname:string,private rollno:number)
     marks: number[];
-    sum() {
+    Adress:address();
+    avg():number {
         let i: number;
         let sum = 0;
         for (i = 0; i < this.marks.length; i++) {
             sum += this.marks[i];
         }
-        return sum;
+        return (sum/this.marks.length);
     }
-    rollno: 8125;
 }
-let stud = new Student();
-stud.firstName = 'Pritesh';
-stud.lastName = 'Naik';
-let add =new address();
-add.state = 'Goa';
-add.Country = 'India';
+let stud = new Student('Pritesh','Naik',8125,'Goa','India');
+// let add =new address();
 stud.marks = [25, 26, 24, 23, 21, 25];
-let Sum= stud.sum();
-console.log('the sum is '+Sum);
-console.log('the state is '+add.state ,'The Contry is'+add.Country);
+let Avg= stud.avg();
+console.log('the Avg is:'+Avg);
+console.log('the state is '+stud.state ,'The Contry is'+add.Country);
+console.log(stud);
