@@ -1,0 +1,2 @@
+Class in ts:
+Same as in Objectjs.js but in Ts
