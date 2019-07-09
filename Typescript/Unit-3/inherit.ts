@@ -47,3 +47,11 @@ var op1=echo<string>("hello");
 var op2=echo<boolean>(true);
     console.log(op2);
 
+
+
+/*
+npm i -g @angular/cli
+ng v
+ng new pojectname
+ 
+ */
