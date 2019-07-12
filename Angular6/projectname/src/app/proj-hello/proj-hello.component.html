@@ -1,9 +1,24 @@
 <p>proj-hello works</p>
 <ul>
-    <li>Hello world</li>
-    <li>I'm Running From proj-hello</li>
+  <li>Hello world</li>
+  <li>I'm Running From proj-hello</li>
+
 </ul>
 <div>
-    <hr>
-    {{"Hello I'm Just a plain text"}}  
+  <hr>
+  {{GetFullDel()}}
+  <hr>
+  {{GetName()}}
+  <hr>
+  {{GetDes()}}
+  <hr>
+  {{GetAdd()}}
+  <hr>
+  <!-- Angular Directive to check for certain conditions(*ngIf)-->
+  <div *ngIf='User.phone.length'>Phone:
+    <!-- Angular Directive to iterate a list or array elements(ngFor)-->
+    <p *ngFor='let Phone of User.phone'>{{Phone}}</p>
+    <!-- In the above code User is taken from model.ts file and not component.ts -->
+  </div>
+
 </div>
